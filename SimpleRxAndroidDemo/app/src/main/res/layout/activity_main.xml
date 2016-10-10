@@ -11,7 +11,19 @@
     tools:context="com.ivy.simplerxandroiddemo.MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="39dp"
+        android:onClick="load"
+        android:id="@+id/button" />
 </RelativeLayout>
